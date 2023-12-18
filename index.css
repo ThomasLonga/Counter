@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.tittle{
+    color: #102A42;
+    font-size: 70px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+.cont{
+    color: green;
+    font-size: 100px;
+    text-align: center;
+    margin-top: -20px;
+
+}
+
+.box_buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    margin-top: -50px;
+}
+
+button{
+    margin-right: 20px;
+    height: 35px;
+    width: 140px;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 20px;
+    transition: all 0.3s linear;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
